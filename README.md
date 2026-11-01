@@ -2,7 +2,6 @@
 
 Windows 上的 Telegram 文件浏览与下载工作台，使用 Electron 提供桌面界面，下载能力基于 [iyear/tdl](https://github.com/iyear/tdl)。
 
-这是独立的第三方项目，与其他同名或近似名称的 TDL-GUI 项目没有隶属关系，也不是 tdl 或 Telegram 官方客户端。
 
 ## 功能
 
