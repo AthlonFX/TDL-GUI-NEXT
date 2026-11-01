@@ -56,6 +56,11 @@ npm run build
 
 构建输出为 `dist/win-unpacked` 文件夹。运行 `npm run release:zip` 可另外生成免安装 ZIP 和校验文件。
 
+## 贡献与致谢
+
+- **项目发起与维护**：[AthlonFX](https://github.com/AthlonFX)。
+- **AI 辅助开发**：[Codex（OpenAI）](https://openai.com/codex/)，协助代码实现、界面调整、问题排查与测试。
+
 ## 上游与许可
 
 - tdl 原作者：[iyear](https://github.com/iyear)，以及 [贡献者](https://github.com/iyear/tdl/graphs/contributors)。
