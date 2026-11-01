@@ -1,0 +1,99 @@
+{
+  "name": "tdl-gui-next",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram 文件浏览与下载桌面工作台",
+  "author": "TDL-GUI-NEXT",
+  "main": "app/main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "test": "npm --prefix backend test",
+    "prepare:build": "node scripts/prepare-build.mjs",
+    "build": "npm run prepare:build && electron-builder --win --x64 --dir",
+    "release:zip": "node scripts/package-release.mjs"
+  },
+  "devDependencies": {
+    "electron": "45.2.1",
+    "electron-builder": "26.18.0"
+  },
+  "build": {
+    "appId": "local.tdl.workbench.desktop",
+    "productName": "TDL-GUI-NEXT",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "app/**/*",
+      "package.json"
+    ],
+    "asar": true,
+    "npmRebuild": false,
+    "extraResources": [
+      {
+        "from": "backend",
+        "to": "backend",
+        "filter": [
+          "**/*",
+          "!data/**/*",
+          "!cache/**/*",
+          "!settings.json",
+          "!*.png",
+          "!*.jpg",
+          "!test.mjs",
+          "!*.test.mjs",
+          "!*.vbs",
+          "!NativeFolderPicker.cs",
+          "!node_modules/**/prebuilds/darwin-*/**/*",
+          "!node_modules/**/prebuilds/win32-arm64/**/*",
+          "!**/*.pdb"
+        ]
+      },
+      {
+        "from": "backend/node_modules",
+        "to": "backend/node_modules",
+        "filter": [
+          "**/*",
+          "!**/prebuilds/darwin-*/**/*",
+          "!**/prebuilds/win32-arm64/**/*",
+          "!**/*.pdb"
+        ]
+      },
+      {
+        "from": "runtime",
+        "to": "runtime"
+      },
+      {
+        "from": "migration-source.json",
+        "to": "migration-source.json"
+      },
+      {
+        "from": "THIRD-PARTY-NOTICES.md",
+        "to": "THIRD-PARTY-NOTICES.md"
+      },
+      {
+        "from": "licenses",
+        "to": "licenses"
+      },
+      {
+        "from": "LICENSE",
+        "to": "LICENSE"
+      },
+      {
+        "from": "NOTICE.md",
+        "to": "NOTICE.md"
+      }
+    ],
+    "win": {
+      "target": [
+        "dir"
+      ],
+      "icon": "app/icon.ico",
+      "signExecutable": false,
+      "artifactName": "TDL-GUI-NEXT-${version}-Windows-x64.${ext}"
+    },
+    "portable": {
+      "requestExecutionLevel": "user"
+    }
+  },
+  "license": "AGPL-3.0-only"
+}

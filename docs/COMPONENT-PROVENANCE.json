@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "tdl": {
+    "version": "0.20.4",
+    "commit": "9d7d49eef2bcb04da720c26e33598c49c68b9ddd",
+    "binarySha256": "2c4057446d95fb0ebefe3ac6d81bf534b5b34363d01109c64aae1c3143cee56b",
+    "source": "https://codeload.github.com/iyear/tdl/zip/refs/tags/v0.20.4",
+    "sourceSha256": "b20f8a2df424feae7978930f78d4b107e67be1c6cce880c31f39987713532916",
+    "buildDocumentation": "Upstream go.mod, Makefile and .goreleaser.yml are included in the matching source archive."
+  },
+  "ffmpeg": {
+    "version": "N-92722-gf22fcd4483",
+    "package": "@ffmpeg-installer/win32-x64@4.1.0",
+    "binarySha256": "c8abc49e7be62dde8e12972af373959e0076a7b8dc8040eb45978e0608f8781e",
+    "license": "GPLv3-enabled build; linked components retain their respective licenses",
+    "correspondingSourceComplete": false,
+    "notes": "Exact linked dependency versions and full build materials have not been verified. The executable is retained unchanged at the maintainer’s request. No claim of complete redistribution-material review is made."
+  },
+  "node": {
+    "version": "24.22.1",
+    "binarySha256": "b59feb2088f80e1fa431c8f9c316861e660e5936f968fd97b802e550fed356c5",
+    "upstream": "https://nodejs.org/dist/v24.22.1/"
+  },
+  "electron": {
+    "version": "45.2.1",
+    "upstream": "https://github.com/electron/electron/releases/tag/v45.2.1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "tdl-gui-next-backend",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test.mjs date-jump.test.mjs preview-cache.test.mjs thumbnail-queue.test.mjs logout.test.mjs settings-autosave.test.mjs"
+  },
+  "dependencies": {
+    "@xterm/headless": "6.0.0",
+    "big-integer": "^1.6.52",
+    "node-pty": "1.1.0",
+    "teleproto": "^1.232.1"
+  },
+  "license": "AGPL-3.0-only"
+}

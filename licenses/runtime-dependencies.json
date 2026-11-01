@@ -1,0 +1,216 @@
+[
+  {
+    "name": "@cifrante/win32-x64",
+    "version": "0.8.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sanyok12345/cifrante.git"
+    },
+    "noticeFiles": [
+      "licenses/runtime/@cifrante/win32-x64/LICENSE"
+    ]
+  },
+  {
+    "name": "@xterm/headless",
+    "version": "6.0.0",
+    "license": "MIT",
+    "repository": "https://github.com/xtermjs/xterm.js",
+    "noticeFiles": [
+      "licenses/runtime/@xterm/headless/LICENSE"
+    ]
+  },
+  {
+    "name": "base64-js",
+    "version": "1.5.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/beatgammit/base64-js.git"
+    },
+    "noticeFiles": [
+      "licenses/runtime/base64-js/LICENSE"
+    ]
+  },
+  {
+    "name": "big-integer",
+    "version": "1.6.52",
+    "license": "Unlicense",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:peterolson/BigInteger.js.git"
+    },
+    "noticeFiles": [
+      "licenses/runtime/big-integer/LICENSE"
+    ]
+  },
+  {
+    "name": "buffer",
+    "version": "6.0.3",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/feross/buffer.git"
+    },
+    "noticeFiles": [
+      "licenses/runtime/buffer/LICENSE"
+    ]
+  },
+  {
+    "name": "cifrante",
+    "version": "0.8.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sanyok12345/cifrante.git"
+    },
+    "noticeFiles": [
+      "licenses/runtime/cifrante/LICENSE"
+    ]
+  },
+  {
+    "name": "ieee754",
+    "version": "1.2.1",
+    "license": "BSD-3-Clause",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/feross/ieee754.git"
+    },
+    "noticeFiles": [
+      "licenses/runtime/ieee754/LICENSE"
+    ]
+  },
+  {
+    "name": "imurmurhash",
+    "version": "0.1.4",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jensyt/imurmurhash-js"
+    },
+    "noticeFiles": [
+      "licenses/runtime/imurmurhash/LICENSE"
+    ]
+  },
+  {
+    "name": "ip-address",
+    "version": "10.7.5",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/beaugunderson/ip-address.git"
+    },
+    "noticeFiles": [
+      "licenses/runtime/ip-address/LICENSE"
+    ]
+  },
+  {
+    "name": "mime",
+    "version": "3.0.0",
+    "license": "MIT",
+    "repository": {
+      "url": "https://github.com/broofa/mime",
+      "type": "git"
+    },
+    "noticeFiles": [
+      "licenses/runtime/mime/LICENSE"
+    ]
+  },
+  {
+    "name": "node-addon-api",
+    "version": "7.1.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/nodejs/node-addon-api.git"
+    },
+    "noticeFiles": [
+      "licenses/runtime/node-addon-api/LICENSE.md"
+    ]
+  },
+  {
+    "name": "node-localstorage",
+    "version": "3.0.5",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/lmaccherone/node-localstorage.git"
+    },
+    "noticeFiles": [
+      "licenses/runtime/node-localstorage/LICENSE.md"
+    ]
+  },
+  {
+    "name": "node-pty",
+    "version": "1.1.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/microsoft/node-pty.git"
+    },
+    "noticeFiles": [
+      "licenses/runtime/node-pty/deps/winpty/LICENSE",
+      "licenses/runtime/node-pty/LICENSE"
+    ]
+  },
+  {
+    "name": "signal-exit",
+    "version": "4.1.0",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tapjs/signal-exit.git"
+    },
+    "noticeFiles": [
+      "licenses/runtime/signal-exit/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "smart-buffer",
+    "version": "4.2.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/JoshGlazebrook/smart-buffer.git"
+    },
+    "noticeFiles": [
+      "licenses/runtime/smart-buffer/LICENSE"
+    ]
+  },
+  {
+    "name": "socks",
+    "version": "2.8.10",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/JoshGlazebrook/socks.git"
+    },
+    "noticeFiles": [
+      "licenses/runtime/socks/LICENSE"
+    ]
+  },
+  {
+    "name": "teleproto",
+    "version": "1.232.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sanyok12345/teleproto.git"
+    },
+    "noticeFiles": [
+      "licenses/runtime/teleproto/LICENSE"
+    ]
+  },
+  {
+    "name": "write-file-atomic",
+    "version": "5.0.1",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/npm/write-file-atomic.git"
+    },
+    "noticeFiles": [
+      "licenses/runtime/write-file-atomic/LICENSE.md"
+    ]
+  }
+]
